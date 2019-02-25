@@ -40,7 +40,9 @@ try:
         TIME2 = subprocess.check_output(cmd, shell = True )
         cmd = "date +'%H:%M'"
         TIME3 = subprocess.check_output(cmd, shell = True )
-        lines = [TIME1,TIME2,TIME3]
+	cmd = "/usr/games/fortune -sn 80 it| tr '\n' ' '| tr '\t' ' '"
+        SENTENCE = subprocess.check_output(cmd, shell = True )
+        lines = [TIME1,TIME2,TIME3,SENTENCE]
 
         colours = [tuple([int(n * 255) for n in colorsys.hsv_to_rgb(x/float(len(lines)), 1.0, 1.0)]) for x in range(len(lines))]
 
