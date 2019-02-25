@@ -17,7 +17,7 @@ For having the program starting at the boot, for a Raspberry "headless", use cro
 
 https://www.dexterindustries.com/howto/auto-run-python-programs-on-the-raspberry-pi/
 
-With few row of code the clock now shows short Italian 'fortune' quotes.
+With few rows of code the clock now shows short Italian 'fortune' quotes.
 You have to install the fortune program
 
         sudo apt-get install fortune 
