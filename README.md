@@ -19,8 +19,11 @@ https://www.dexterindustries.com/howto/auto-run-python-programs-on-the-raspberry
 
 With few row of code the clock now shows short Italian 'fortune' quotes.
 You have to install the fortune program
+
         sudo apt-get install fortune 
+        
 take from here the sentences in Italian (debian packaging):
+
         https://packages.qa.debian.org/f/fortunes-it.html
 
 
