@@ -24,6 +24,6 @@ You have to install the fortune program
         
 take from here the sentences in Italian (debian packaging):
 
-        https://packages.qa.debian.org/f/fortunes-it.html
+https://packages.qa.debian.org/f/fortunes-it.html
 
 
